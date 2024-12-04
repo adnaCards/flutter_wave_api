@@ -66,8 +66,6 @@ class FlutterwaveInAppBrowser extends InAppBrowser {
         success: status?.contains("success") == true
     );
     _closeTransactionScreen(chargeResponse);
-    // callBack.onTransactionComplete(chargeResponse);
-    // close();
   }
 
   _finish(final Uri uri) {
